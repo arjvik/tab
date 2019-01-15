@@ -1,5 +1,8 @@
 # [tab](https://koryschneider.com/tab)
 
+### Forked by arjvik
+Why? I loved the idea but wanted to split by spaces rather than semicolons. So I forked it and decided to host it myself on GitHub Pages.
+
 ### What
 
 A minimal, customizable command line startpage.
