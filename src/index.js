@@ -48,7 +48,7 @@ function evaluateInput() {
   lastEnteredCommand = input;
 
   // Format input
-  let args = input.split(';');
+  let args = input.split(' ');
   let command = args[0].toLowerCase();
   for (let i=0; i < args.length; i++) {
     args[i] = args[i].trim();
