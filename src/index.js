@@ -537,14 +537,14 @@ const commands = {
   'g': (args) => {
     const url = 'https://google.com', search = '/search?q=';
     if (args.length == 0) redirect(url)
-    else redirect(buildURL(url, search, args));
+    else redirect(buildURL(url, search, args.join(' '));
   },
 
   // DuckDuckGo
   'dg': (args) => {
     const url = 'https://duckduckgo.com', search = '/?q=';
     if (args.length == 0) redirect(url)
-    else redirect(buildURL(url, search, args));
+    else redirect(buildURL(url, search, args.join(' '));
   },
 
   // Reddit
